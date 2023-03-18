@@ -1,7 +1,7 @@
 image:
   name: ubuntu-jammy-x86_64
   distribution: ubuntu
-  release: focal
+  release: jammy
   description: |-
     Ubuntu {{ image.release }}
   architecture: x86_64

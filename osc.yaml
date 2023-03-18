@@ -310,8 +310,7 @@ actions:
     #!/bin/sh
     set -eux
 
-    # Enable systemd-networkd
-    systemctl enable systemd-networkd apache2
+    systemctl enable systemd-networkd apache2 mysql
   releases:
   - bionic
   - eoan

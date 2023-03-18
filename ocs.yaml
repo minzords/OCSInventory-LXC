@@ -80,12 +80,6 @@ files:
           dhcp4: true
           dhcp-identifier: mac
   releases:
-  - bionic
-  - eoan
-  - focal
-  - groovy
-  - hirsute
-  - impish
   - jammy
   types:
   - container
@@ -102,12 +96,6 @@ files:
           dhcp4: true
           dhcp-identifier: mac
   releases:
-  - bionic
-  - eoan
-  - focal
-  - groovy
-  - hirsute
-  - impish
   - jammy
   types:
   - vm
@@ -213,12 +201,6 @@ packages:
     architectures:
     - arm64
     releases:
-    - disco
-    - eoan
-    - focal
-    - groovy
-    - hirsute
-    - impish
     - jammy
     types:
     - vm
@@ -227,12 +209,6 @@ packages:
     - linux-virtual
     action: install
     releases:
-    - bionic
-    - eoan
-    - focal
-    - groovy
-    - hirsute
-    - impish
     - jammy
     types:
     - vm
@@ -316,12 +292,6 @@ actions:
     # Disable default apache config
     unlink /etc/apache2/sites-enabled/000-default.conf
   releases:
-  - bionic
-  - eoan
-  - focal
-  - groovy
-  - hirsute
-  - impish
   - jammy
 
 - trigger: post-packages

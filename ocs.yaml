@@ -310,7 +310,11 @@ actions:
     #!/bin/sh
     set -eux
 
+    # Enable service at boot
     systemctl enable systemd-networkd apache2 mysql
+
+    # Disable default apache config
+    unlink /etc/apache2/sites-enabled/000-default.conf
   releases:
   - bionic
   - eoan
